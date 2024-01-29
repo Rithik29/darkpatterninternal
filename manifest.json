@@ -1,0 +1,23 @@
+{
+    "manifest_version": 2,
+    "name": "URL Sender Extension",
+    "version": "1.0",
+    "description": "A simple extension to send the current URL to an API.",
+    "permissions": ["activeTab"],
+    "browser_action": {
+      "default_icon": {
+        "16": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+      },
+      "default_popup": "popup.html",
+      "default_title": "URL Sender Extension"
+    },
+    "icons": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
+
+  }
+  
